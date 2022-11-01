@@ -1,4 +1,4 @@
-export function Tutorialcmd() {
+export default function Tutorialcmd() {
     return (
         <div>
             <h2>type nul &gt; "nomedoarquivo.txt"</h2>
