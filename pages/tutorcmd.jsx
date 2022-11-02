@@ -1,4 +1,4 @@
-export default function() {
+export default function TutorCmd() {
 	return(
 		<div>
 			<h2>Ricardo</h2>
