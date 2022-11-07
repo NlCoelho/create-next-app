@@ -1,0 +1,16 @@
+.background {
+    background-image: url('../public/chopeira1.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    transition: background-size 3s, opacity 3s;
+    width: 100%;
+    height: 400px;
+    
+}
+
+.background:hover {
+    opacity: 50%;
+    background-size: 125% 125%;
+}
+

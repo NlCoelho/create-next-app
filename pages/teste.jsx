@@ -1,7 +1,11 @@
 import Cabecalho from "../components/cabecalho";
+import Navbar from "../components/Navbar";
 
 export default function Exemplo22() {
     return (
-        <Cabecalho />
+        <>
+            <Navbar></Navbar>
+            <Cabecalho />
+        </>
     )
 }

@@ -1,12 +1,8 @@
-import Image from "next/image" 
 
-
-export default function Cabecalho() {
+export default function Cabecalho(props) {
     return (
         <header>
-            <h1>Fundamentos de Next.js e React</h1>
-            <h2>Cabeçalho usando componente</h2>
-            <img src="/natha-e-seu-pai.png" alt="imagem" />
+            <h1>{props.titulo ?? "sem titulo"}</h1>
         </header>
     )
 }

@@ -1,0 +1,29 @@
+.TypeWriter {
+  display: flex;
+  position: relative;
+  top: -335px;
+  right: -55px;
+}
+.TypeWriter h1 {
+    font-size: 30px;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typewriter 4s steps(30) 1 alternate, blink 1200ms steps(30) infinite normal;
+    
+  }
+  @keyframes typewriter {
+    from {
+      width: 0%;
+    }
+    to {
+      width: 30%;
+    }
+  }
+  @keyframes blink {
+    from {
+      border-color: rgb(255, 255, 255);
+    }
+    to {
+      border-color: transparent;
+    }
+}
