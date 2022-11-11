@@ -8,7 +8,7 @@ export default function Inicio() {
     <>
       <Navbar></Navbar>
       <div className={styles.background}>
-
+      
       </div>
       <div className={styles2.TypeWriter}>
         <h1>DuChoop Tudo para o seu Choop</h1></div>

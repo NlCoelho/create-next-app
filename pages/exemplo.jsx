@@ -1,4 +1,3 @@
-import Link from "next/link";
 import Cabecalho from "../components/cabecalho";
 import Navbar from "../components/Navbar";
 

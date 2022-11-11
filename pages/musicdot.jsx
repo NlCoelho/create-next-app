@@ -8,7 +8,8 @@ import stylePlanos from '../styles/planos.module.css'
 import styleBeneficios from '../styles/beneficios.module.css'
 import styleChamadaYouTube from '../styles/chamadayoutube.module.css'
 import styleChamadaApp from '../styles/chamada-app.module.css'
- 
+import Link from 'next/link'
+
 
 
 export default function MusicDot() {
@@ -16,14 +17,16 @@ export default function MusicDot() {
 	return (
 		<>
 			<header className={styleHeader.cabecalho + " " + styleContainer.container}>
-				<a href="/">
-					<img src="/musicdot-logo-light.svg" title="Ir para a página inicial da Musicdot" alt="logo MusicDot"></img>
-				</a>
+				<Link href="/">
+					<picture>
+						<img src="/musicdot-logo-light.svg" alt="logo MusicDot" />
+					</picture>
+				</Link>
 
 				<nav>
 					<ul className={styleHeader.cabecalho__menu}>
-						<li className={styleHeader.cabecalho__item_menu}><a href="sobre.php#contato"> Contato </a></li>
-						<li className={styleHeader.cabecalho__item_menu}><a href="/"> Entrar </a></li>
+						<li className={styleHeader.cabecalho__item_menu}><Link href="sobre.php#contato"> Contato </Link></li>
+						<li className={styleHeader.cabecalho__item_menu}><Link href="/"> Entrar </Link></li>
 						<li className={styleHeader.cabecalho__item_menu + " " + styleHeader.cabecalho__item_menu__matricular}><a href="#"> Cadastrar-se </a></li>
 					</ul>
 				</nav>
@@ -171,7 +174,9 @@ export default function MusicDot() {
 			<footer className={styleRodape.rodape + " " + styleContainer.container}>
 
 				<section className={styleRodape.rodape__secao + " " + styleRodape.rodape__secao__sobre}>
-					<img className={styleRodape.rodape_logo} src= "/logo.svg" alt="Logo da MusicDot" />
+					<picture>
+						<img className={styleRodape.rodape_logo} src="/logo.svg" alt="Logo da MusicDot" />
+					</picture>
 
 					<p className={styleRodape.rodape__infos_empresa}>
 						AOVS Sistemas de Informática S.A.
@@ -186,19 +191,25 @@ export default function MusicDot() {
 					<ul className={styleRodape.rodape__lista_midias_sociais}>
 						<li className={styleRodape.rodape__item_midias_sociais}>
 							<a href="https://www.facebook.com/musicdotonline">
-								<img src="/footer-icone-facebook.svg" alt="MusicDot no Facebook" />
+								<picture>
+									<img src="/footer-icone-facebook.svg" alt="MusicDot no Facebook" />
+								</picture>
 							</a>
 						</li>
 
 						<li className={styleRodape.rodape__item_midias_sociais}>
 							<a href="https://www.youtube.com/user/musicdotonline">
-								<img src="/footer-icone-youtube.svg" alt="MusicDot no YouTube" />
+								<picture>
+									<img src="/footer-icone-youtube.svg" alt="MusicDot no YouTube" />
+								</picture>
 							</a>
 						</li>
 
 						<li className={styleRodape.rodape__item_midias_sociais}>
 							<a href="https://www.instagram.com/musicdotonline">
-								<img src="/footer-icone-instagram.svg" alt="Instagram" />
+								<picture>
+									<img src="/footer-icone-instagram.svg" alt="Instagram" />
+								</picture>
 							</a>
 						</li>
 					</ul>
