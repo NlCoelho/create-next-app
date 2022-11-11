@@ -1,0 +1,11 @@
+.botao {
+	font-size: .8rem;
+	font-weight: 500;
+	letter-spacing: 2.9px;
+	text-transform: uppercase;
+	padding: 1rem 40px;
+	margin-top: .5rem;
+	margin-bottom: .5rem;
+	border-radius: 6px;
+	transition: .25s;
+}

@@ -1,7 +1,7 @@
 import Cabecalho from "../components/cabecalho";
 import Navbar from "../components/Navbar";
 
-export default function Exemplo22() {
+export default function Exemplo() {
     return (
         <>
             <Navbar></Navbar>
