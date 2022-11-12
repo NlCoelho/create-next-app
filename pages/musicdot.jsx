@@ -38,7 +38,7 @@ export default function MusicDot() {
 					<article className={styleCursos.cursos__chamada + " " + styleCursos.largura_grande}>
 						<h1 className={styleCursos.chamada__titulo}>Cursos online de <strong className={styleCursos.chamada__titulo__destaque}>música</strong></h1>
 						<p>Comece agora e aprenda sua primeira música em 10 minutos!</p>
-						<a href="/musicdot" className={styleCursos.chamada__cursos__matricula + " " + styleCursos.botao}>Matricule-se</a>
+						<Link href="/musicdot" className={styleCursos.chamada__cursos__matricula + " " + styleCursos.botao}>Matricule-se</Link>
 					</article>
 					<nav>
 						<ul className={styleCursos.cursos__lista}>
