@@ -4,6 +4,9 @@
 	text-align: center;
 	font-size: 0.7rem;
 }
+.rodape li:hover {
+	font-weight: 900;
+}
 .rodape__logo {
 	width: 11.25em;
 	margin-bottom: 1em;

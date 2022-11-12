@@ -38,7 +38,7 @@ export default function MusicDot() {
 					<article className={styleCursos.cursos__chamada + " " + styleCursos.largura_grande}>
 						<h1 className={styleCursos.chamada__titulo}>Cursos online de <strong className={styleCursos.chamada__titulo__destaque}>música</strong></h1>
 						<p>Comece agora e aprenda sua primeira música em 10 minutos!</p>
-						<a href="cursos.html" className={styleCursos.chamada__cursos__matricula + " " + styleCursos.botao}>Matricule-se</a>
+						<a href="/musicdot" className={styleCursos.chamada__cursos__matricula + " " + styleCursos.botao}>Matricule-se</a>
 					</article>
 					<nav>
 						<ul className={styleCursos.cursos__lista}>
@@ -92,7 +92,7 @@ export default function MusicDot() {
 							<p>12x <span className={stylePlanos.valor__destaque}>R$ 50,00</span></p>
 							<p>Valor total de R$ 600,00</p>
 							<span>Acesso à Alura Língua</span>
-							<a href="cursos.html" className={stylePlanos.cards__botao + " " + stylePlanos.botao}>Matricule-se</a>
+							<a href="#" className={stylePlanos.cards__botao + " " + stylePlanos.botao}>Matricule-se</a>
 						</div>
 					</article>
 
@@ -100,7 +100,7 @@ export default function MusicDot() {
 						<h3 className={stylePlanos.plano__titulo}>Plano Semestral</h3>
 						<p>12x <span className={stylePlanos.valor__destaque}>R$ 60,00</span></p>
 						<p>Valor total de R$ 360,00</p>
-						<a href="cursos.html" className={stylePlanos.cards__botao + " " + stylePlanos.botao}>Matricule-se</a>
+						<a href="#" className={stylePlanos.cards__botao + " " + stylePlanos.botao}>Matricule-se</a>
 					</article>
 					<article className={stylePlanos.planos__pagamentos}>
 						<p>Pagamento seguro com PayPal</p>
